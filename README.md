@@ -1,2 +1,3 @@
 # udemy-chef
-remote repository for udemy chef fundimentals
+A remote repository for udemy chef fundimentals course.
+
