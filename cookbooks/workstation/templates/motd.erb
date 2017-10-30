@@ -1,0 +1,6 @@
+This server belongs to <%= @name %>
+  FLAVOR: <%= node['platform'] %>
+  HOSTNAME: <%= node['hostname'] %>
+  IPADDRESS: <%= node['ipaddress'] %>
+  CPU: <%= node['cpu']['0']['mhz'] %>
+  MEMORY: <%= @memory %>

@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1> Hello World. This is from a template.  </h1>
+      <p>HOSTNAME: <%= node['hostname'] %> </p>
+      <p>IPADDRESS: <%= node['ipaddress'] %> </p>
+      <p>MEMORY: <%= node['memory']['total'] %> </p>
+      <p>CPU: <%= node['cpu']['0']['mhz'] %> </p>
+      <p>change</p>
+  </body>
+</html>
