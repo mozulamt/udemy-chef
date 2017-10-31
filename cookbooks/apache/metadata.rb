@@ -1,10 +1,10 @@
 name 'apache'
-maintainer 'The Authors'
-maintainer_email 'you@example.com'
+maintainer 'Niels Maumenee'
+maintainer_email 'niels.maumenee@dreamhost.com'
 license 'all_rights'
 description 'Installs/Configures apache'
 long_description 'Installs/Configures apache'
-version '0.1.0'
+version '0.1.1'
 
 # If you upload to Supermarket you should set this so your cookbook
 # gets a `View Issues` link
@@ -13,3 +13,4 @@ version '0.1.0'
 # If you upload to Supermarket you should set this so your cookbook
 # gets a `View Source` link
 # source_url 'https://github.com/<insert_org_here>/apache' if respond_to?(:source_url)
+depends 'apt'

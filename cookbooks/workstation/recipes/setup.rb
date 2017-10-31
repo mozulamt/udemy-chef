@@ -1,3 +1,5 @@
+include_recipe 'apt'
+
 package %w(tree ntp git) do
   action :install
 end
