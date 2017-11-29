@@ -1,12 +1,12 @@
-include_recipe 'apt'
+#include_recipe 'apt'
 
 package %w(tree ntp git) do
   action :install
 end
 
-service 'ntpd' do
-  action [ :enable, :start]
-end
+#service 'ntpd' do
+#  action [ :enable, :start]
+#end
 
 template '/etc/motd' do
   source 'motd.erb'

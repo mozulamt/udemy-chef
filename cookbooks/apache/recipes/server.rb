@@ -9,9 +9,7 @@
 #
 # :before, :delayed, :immeditately
 
-
 if node['platform'] == 'ubuntu'
-  include_recipe 'apt'
   package 'apache2' do
     action :install
   end
@@ -29,7 +27,7 @@ if node['platform'] == 'ubuntu'
   end
 end
 
-if node['platform'] == "rhel"
+if node['platform'] == 'centos'
   package 'httpd' do
     action :install
   end
